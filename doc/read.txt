@@ -1,0 +1,30 @@
+
+springboot+mybatis项目，只是实现了简单的获取验证码和注册用户和登录用户。
+用户基本信息前后端没有做校验。
+
+获取手机验证码后跳转到注册页面，注册成功后跳转到登录页面
+
+1.获取验证码
+http://localhost:8083/user/getotp
+
+2.注册页面
+必须需要手机验证码
+http://localhost:8083/user/zhuce
+
+3.登录页面
+http://localhost:8083/user/denglu
+
+4. 密码全是：123
+
+5. bug
+(1)登录有bug：输入手机号后再输入密码(不管密码对不对)也可以跳转成功页面。
+(2)数据库手机号设置了唯一索引。
+
+拓展阅读
+https://www.imooc.com/video/18346/0
+
+
+
+
+
+
